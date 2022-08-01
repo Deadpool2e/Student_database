@@ -1,3 +1,6 @@
+# About project
+I have used REST API and ReactJS to create a student database in which you can add , delete and update the contents.
+
 # Setting up the server 
 
 Start the server first using [Server Api](https://github.com/Deadpool2e/server_api)
