@@ -10,7 +10,7 @@ const TitleBar = () => {
     },[theme])
 
     return (
-        <div className="titlebar">
+        <div className="titlebar" style={{marginBottom:"20px"}}>
             <span className="title">Student Database</span> 
             <span className="mode">Light Mode</span>
             <label className="switch">
