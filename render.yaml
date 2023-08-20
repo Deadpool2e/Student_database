@@ -4,5 +4,4 @@ services:
     env: python
     buildCommand: npm install
     startCommand: npm run build && react-scripts start
-    environment:
-      NODE_VERSION: 16.x
+
