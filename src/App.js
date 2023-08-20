@@ -52,10 +52,10 @@ function App() {
     inputRef.current.style.display = "block";
   }
   window.onclick = function (event) {
-    if (event.target == inputRef.current) {
+    if (event.target === inputRef.current) {
       inputRef.current.style.display = "none";
     }
-    if (event.target == editRef.current) {
+    if (event.target === editRef.current) {
       editRef.current.style.display = "none";
     }
   };
