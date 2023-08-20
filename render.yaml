@@ -2,6 +2,6 @@ services:
   - type: web
     name: my-react-app
     env: python
-    buildCommand: npm install
-    startCommand: npm run build && react-scripts start
+    buildCommand: npm install && npm run build --node-version=16
+    startCommand: npm run start --node-version=16
 
