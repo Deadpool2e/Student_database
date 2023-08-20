@@ -3,4 +3,4 @@ services:
     name: my-react-app
     env: python
     buildCommand: npm install
-    startCommand: npm run build && npm start
+    startCommand: npm run build && react-scripts start
